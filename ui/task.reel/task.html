@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="task.css" />
+    <script type="text/montage-serialization">{"owner":{"properties":{"element":{"#":"owner"}}},"checkbox":{"prototype":"digit/ui/checkbox.reel","properties":{"element":{"#":"checkbox"},"checked":true},"bindings":{"checked":{"<->":"@owner.task.completed"}}},"text":{"prototype":"digit/ui/text.reel","properties":{"value":"Text"},"bindings":{"value":{"<->":"@owner.task.title"}}},"text2":{"prototype":"digit/ui/text.reel","properties":{"value":"Text"}}}</script>
+</head>
+<body>
+    <div data-montage-id="owner" class="Task">
+        <input type="checkbox" data-montage-id="checkbox" />
+
+        
+        <p data-montage-id="text"></p>
+    </div>
+
+</body></html>
